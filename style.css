@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+}
+.light{
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+ .light p {
+    color: gray; 
+    cursor: pointer; 
+    display: inline-block;
+} 
+.light p:hover{
+    color: white;
+}
+.product{
+    background-color: white;
+    display:flex;
+    gap: 5px;
+    margin-bottom: 0px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.box{
+    width:380px;
+    height: 580px;
+    text-align: center;
+    border: black 2px solid;
+}
+.box img{
+    background-color: white;
+    height: 500px;
+    width:380px;
+    margin-bottom: 0px;
+}
+.box p{
+    text-align: center;
+    color:black;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    cursor:pointer;
+}
+h2{
+    display: block;
+    font-size: 30px;
+    margin-left:10px;
+    margin-right: 800px;
+    margin-top:10px;
+    text-align: center;
+}
+form{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-left:800px;
+}
+.footer{
+    background-color: black;
+    margin-top: 20px;
+    height: 200px;
+    padding-top: 10px;
+}
+.send button {
+    background-color: yellow;
+    color: black;
+    width:500px;
+    margin-left:650px;
+}
+.send{
+    padding-top: 5px;
+}
+    
